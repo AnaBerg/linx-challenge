@@ -1,0 +1,31 @@
+.footer-container {
+  width: 100vw;
+  background-color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.footer-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.footer-container p {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  margin: 5px;
+
+}
+
+.footer-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 5rem solid #707070;
+  border-right: 100vw solid transparent;
+}

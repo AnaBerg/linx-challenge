@@ -1,0 +1,48 @@
+.indication-container {
+  margin: 0 5rem;
+}
+
+.indication-container p {
+  font-family: 'Roboto', sans-serif;
+  color: #888888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-indication-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input-indication-container {
+  margin: 2rem;
+}
+
+.button-indication-container {
+  margin: 0 15rem;
+}
+
+@media (max-width: 900px) {
+  .button-indication-container {
+    margin: 0 10rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .indication-container {
+    margin: 0 2rem;
+  }
+
+  .form-indication-container {
+    grid-template-columns: 1fr;
+  }
+
+  .input-indication-container {
+    margin: 10px 2rem;
+  }
+
+  .button-indication-container {
+    margin: 0 2rem;
+  }
+}

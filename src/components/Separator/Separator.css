@@ -1,0 +1,27 @@
+.separator-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+
+}
+
+.text-separator-container {
+  min-width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-separator-container p {
+  font-family: 'Roboto', sans-serif;
+  color: #888888;
+  font-weight: 700;
+}
+
+.line {
+  height: 1px;
+  background-color: #707070;
+  width: 40%;
+}
