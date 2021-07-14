@@ -16,17 +16,14 @@ const Products = () => {
     'https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1'
   );
 
-  console.log(products);
-
   useEffect(() => {
     const getProducts = async () => {
       setLoading(true);
       try {
-        console.log(api);
         const response = await api.get(
           'https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1'
         );
-        console.log('passou');
+
         setProducts(response.data.products);
         setUrl(response.data.nextPage);
       } catch (error) {
