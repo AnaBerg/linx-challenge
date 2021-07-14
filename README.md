@@ -24,4 +24,6 @@ Com ele pode-se testar as funcionalidades dos componentes e telas.
 ### `yarn coverage`
 
 Analiza a quantidade de código que está sendo coberta por testes.\
-Pode-se ver todas as estátisticas da cobertura rodando o arquivo `index.html` que está localizado no diretório `coverage/Icov_report/`.
+Pode-se ver todas as estátisticas da cobertura rodando o arquivo `index.html` que está localizado no diretório `coverage/Icov_report`.\
+
+Observação: para gerar a pasta `coverage` é preciso rodar o comando `yarn coverage`.
